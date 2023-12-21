@@ -9,7 +9,7 @@ const AuthController = require("../controllers/Auth");
 
 const router = express.Router();
 
-const Users = require("../models/Users");
+const Users = require("../Models/Users");
 
 
 // router.post("/auth/registeruser", AuthController.registerUser);
