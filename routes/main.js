@@ -5,14 +5,14 @@ const express = require("express");
 const { body, check } = require("express-validator");
 
 
-const AuthController = require("../controllers/Auth");
+const AuthController = require("../Controllers/Auth");
 
 const router = express.Router();
 
 const Users = require("../Models/Users");
 
 
-// router.post("/auth/registeruser", AuthController.registerUser);
+// router.get("/auth/registeruser", AuthController.registerUser);
 
 
 
