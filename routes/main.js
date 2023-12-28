@@ -9,10 +9,10 @@ const AuthController = require("../Controllers/Auth");
 
 const router = express.Router();
 
-const Users = require("../models/Users");
+const Users = require("../Models/Users");
 
 
-// router.post("/auth/registeruser", AuthController.registerUser);
+// router.get("/auth/registeruser", AuthController.registerUser);
 
 
 
